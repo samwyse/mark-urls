@@ -146,8 +146,6 @@ def main_call(args):
 def main(argv=None):
     """Execute as a script."""
 
-    argv = [r'C:\Users\nx733e\Documents\Zoom\2022-04-21 17.26.12 Virtual happy hour\meeting_saved_chat.txt']
-
     # Cribbed from [Python main() functions](https://www.artima.com/weblogs/viewpost.jsp?thread=4829)
     if argv is None:
         argv = sys.argv[1:]
